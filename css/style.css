@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+@font-face{
+    font-family: CinzelDecorative;
+    src: url(../webfont/CinzelDecorative-Regular.ttf);
+}
+
+
+
+.clr{
+    clear: both;
+}
+
+.home{
+    background-image: url(../img/bg.jpg);
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: auto; 
+    
+}
+
+.nav-link{
+    color: white !important;
+   
+    font-family: sans-serif;
+}
+
+.contentHome{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    
+
+}
+
+.nav-item{
+    color: white !important;
+}
+
+.home1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; 
+}
+
+.hometext{
+   text-align: center;
+   color: white;
+   padding: 5% 0%;
+
+
+
+}
+
+.hometext h2{
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hometext h2::after{
+    content: "|";
+    animation: typing;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes typing {
+    
+    0% { content: "|"}
+    2% { content: "L|"}
+    4% { content: "La|"}
+    6% { content: "Lar|"}
+    8% { content: "Larr|"}
+    10% { content: "Larry|"}
+    12% { content: "Larry |"}
+    14% { content: "Larry Da|"}
+    16% { content: "Larry Dan|"}
+    18% { content: "Larry Dani|"}
+    20% { content: "Larry Danie|"}
+    22% { content: "Larry Daniels|"}
+    24% { content: "Larry Daniel|"}
+    26% { content: "Larry Danie|"}
+    28% { content: "Larry Dani|"}
+    30% { content: "Larry Dan|"}
+    32% { content: "Larry Da|"}
+    34% { content: "Larry D|"}
+    38% { content: "Larry |"}
+    40% { content: "Larry|"}
+    42% { content: "Larr|"}
+    44% { content: "Lar|"}
+    46% { content: "La|"}
+    48% { content: "L|"}
+    49% { content: "|"}
+    /* Developer      */
+    50% { content: "D|"}
+    52% { content: "De|"}
+    54% { content: "Dev|"}
+    58% { content: "Deve|"}
+    60% { content: "Develo|"}
+    62% { content: "Develop|"}
+    64% { content: "Developer|"}
+    66% { content: "Develope|"}
+    68% { content: "Develop|"}
+    70% { content: "Develo|"}
+    72% { content: "Devel|"}
+    74% { content: "Deve|"}
+    76% { content: "Dev|"}
+    78% { content: "De|"}
+    80% { content: "D|"}
+    81% { content: "|"}
+    
+    82% { content: "D|"}
+    83% { content: "De|"}
+    85% { content: "Des|"}
+    86% { content: "Desi|"}
+    88% { content: "Desig|"}
+    90% { content: "Design|"}
+    91% { content: "Designe|"}
+    92% { content: "Designer|"}
+    93% { content: "Designe|"}
+    94% { content: "Design|"}
+    95% { content: "Desig|"}
+    96% { content: "Desi|"}
+    97% { content: "Des|"}
+    98% { content: "De|"}
+    99% { content: "D|"}
+    100% { content: "|"}
+
+}
+    
+.text-headerabout{
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+.text-ui{
+    color: #999;
+     
+}
+
+.icon2:hover{
+    color: white !important;
+    background-color: blue !important;
+    border-radius: 50%;
+}
+
+.About {
+    background: #f5f5f5;
+
+}
+
+.itme{
+    background-color:white;
+}
+
+.icon{
+    background-color: #999;
+    color: black;
+    margin: auto;
+   text-align: center;
+    width: 20%;
+    
+
+}
+
+.itme:hover .icon{
+    color: white !important;
+    background-color:black !important;
+}
+
+
+.itme2:hover .icon2{
+    color: white !important;
+    background-color:black !important;
+}
+
+
+
+.icon2{
+    background-color: #f5f5f5;
+
+
+}
+
+.servicsefont{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Portfolio h2{
+    
+   
+    text-transform: capitalize;
+    margin: 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.Portfolio h6{
+    display: inline;
+    
+    font-family: inherit;
+    
+}
+
+.textPortfolio{
+    display: inline-flexbox;  
+}
+
+.SERVICESborder::after{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    top:100% ;
+    left: 25%;
+
+}
+
+
+.Testimonials{
+    background-color: #f5f5f5;
+}
+
+.Read::after{
+    content: "";
+    background-color: #333;
+    position: absolute;
+    width: 35%;
+    height: 2px;
+    top:100% ;
+    left: 0%;
+
+}
+
+.itme:hover img{
+    transform:scale(1.3,1.3);
+
+ }
+
+.bgcontact{
+    background-color: #f5f5f5;
+}
+
+.end{
+    background-color: #1c1c1c;
+    color: #748182;
+    height: 10vh;
+    
+}
+
